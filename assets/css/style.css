@@ -27,11 +27,11 @@
 body {
   background-color: lightgray;
   font-family: "Banda Regular";
-  color: black;
+  color: #1D2331;
 }
 
 a {
-  color: gray;
+  color: #4B79AA;
   text-decoration: none;
 }
 
@@ -181,7 +181,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .header {
-  background: black;
+  background: #1D2531;
   
   transition: all 0.5s;
   z-index: 997;
@@ -241,7 +241,7 @@ section {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: gray;
+  color: #6BA3EA;
 }
 
 .navbar .dropdown ul {
@@ -539,10 +539,10 @@ section {
 --------------------------------------------------------------*/
 .issse {
   padding: 0;
-  background-color: black;
+  background-color: #1D2331;
 }
 .issse .content {
-  background-color: black;
+  background-color: #1D2331;
   padding: 40px;
 }
 .issse h1 {
@@ -599,15 +599,15 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background-color: white;
+  background-color: #E8E4E1;
   padding-bottom: 0;
 }
 .about .content {
-  background-color: white;
+  background-color: #E8E4E1;
   padding: 40px;
 }
 .about h1 {
-  color: black;
+  color: #1D2331;
   text-transform: uppercase;
 }
 .about h3 {
@@ -653,7 +653,7 @@ section {
 # Intro
 --------------------------------------------------------------*/
 .intro {
-  background-color: black;
+  background-color: #4C6580;
 }
 .intro .box {
   padding: 30px;
@@ -684,10 +684,10 @@ section {
 # Research
 --------------------------------------------------------------*/
 .research {
-  background-color: white;
+  background-color: #8f97a6;
 }
 .research h1 {
-  color: black;
+  color: #1D2331;
   text-transform: uppercase;
 }
 .research p {
@@ -705,7 +705,7 @@ section {
   /*text-transform: none;
   font-family: "Banda Regular";*/
   font-size: 18px;
-  color: black;
+  color: #1D2331;
   font-weight: 700;
   margin: 0;
 }
@@ -1515,14 +1515,14 @@ section {
   padding-bottom: 30px;
 }
 .team h2 {
-  color: black;
+  color: #1D2331;
 }
 .team .member {
   width: fit-content;
   overflow: hidden;
   text-align: center;
   border-radius: 5px;
-  background: rgb(15, 15, 15);
+  background: #171c28;
   box-shadow: 0px 0 30px rgba(15, 15, 15, 0.1);
   transition: 0.3s;
 }
@@ -1671,8 +1671,8 @@ padding-top: 0;
 --------------------------------------------------------------*/
 .contact .info-box {
   border-radius: 4px;
-  color: #444444;
-  background: #fafbff;
+  color: #1D2331;
+  background: rgb(200, 200, 200);
   padding: 30px;
 }
 .contact .info-box:hover {
@@ -1682,11 +1682,11 @@ padding-top: 0;
 .contact .info-box i {
   font-size: 38px;
   line-height: 0;
-  color: black;
+  color: #1D2331;
 }
 .contact .info-box h3 {
   font-size: 20px;
-  color: black;
+  color: #1D2331;
   font-weight: 700;
   margin: 20px 0 10px 0;
 }
@@ -2202,7 +2202,7 @@ padding-top: 0;
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  background: black;
+  background: #1D2331;
   padding: 0 0 30px 0;
   font-size: 14px;
 }
