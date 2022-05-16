@@ -1,0 +1,92 @@
+{
+    "edition":2,
+    "year":2005,
+    "venue":"Computer Science building of the University of Salerno, Via Ponte don Melillo, Fisciano (SA), Italy",
+    "startdate": {
+        "day":13,
+        "month":9
+    },
+    "enddate": {
+        "day":16,
+        "month":9
+    },
+    "intro":"The second edition of the International School on Software Engineering intends to provide a contribution to PhD students and academic and industrial researchers on latest findings in the field of Software Engineering. The lectures will cover very relevant topics for the scientific community and will encourage discussion forums between lecturers and industrial and academic attendees. The program of the school includes both traditional and emergent topics of software engineering, ranging from Software Evolution, Software Configuration Management, Pattern-Driven Development, and Software Testing.",
+    "lectures": [
+        {
+            "name":"Bernd",
+            "surname": "Bruegge",
+            "affiliation": "Technical University of Munich, Germany",
+            "title": "Pattern-Driven Development",
+            "img":""
+        },
+        {
+            "name":"Jacky",
+            "surname": "Estublier",
+            "affiliation": "French National Research Organisation, France",
+            "title": "Software Configuration Management",
+            "img":""
+        },
+        {
+            "name":"Anthony",
+            "surname": "Finkelstein",
+            "affiliation": "University College London, UK",
+            "title": "Software Engineering with Multiple Views",
+            "img":""
+        },
+        {
+            "name":"Harald",
+            "surname": "Gall",
+            "affiliation": "University of Zurich, Switzerland",
+            "title": "Software Evolution: Analysis and Visualization",
+            "img":""
+        },
+        {
+            "name":"Mauro",
+            "surname": "Pezzè",
+            "affiliation": "University of Milano-Bicocca, Italy",
+            "title": "Testing Object Oriented Software",
+            "img":""
+        },
+        {
+            "name":"Giancarlo",
+            "surname": "Succi",
+            "affiliation": "Free University of Bolzano-Bozen, Italy",
+            "title": "Lean Process Management in Software Engineering",
+            "img":""
+        }
+    ],
+    "organization": {
+        "school director": [
+            {
+                "name":"Andrea",
+                "surname": "De Lucia",
+                "affiliation": "University of Salerno, Italy"
+            }
+        ],
+        "program co-chair": [
+            {
+                "name":"Filomena",
+                "surname": "Ferrucci",
+                "affiliation": "University of Salerno, Italy"
+            }
+        ]
+    },
+    "supporters": [
+        {
+            "name":"Università di Salerno",
+            "img": ""
+        },
+        {
+            "name":"Dipartimento di Matematica e Informatica, Università di Salerno",
+            "img": ""
+        },
+        {
+            "name":"Facoltà di Scienze Matematiche Fisiche e Naturali, Università di Salerno",
+            "img": ""
+        },
+        {
+            "name":"Dottorato di Ricerca in Informatica, Università di Salerno",
+            "img": ""
+        }
+    ]
+}

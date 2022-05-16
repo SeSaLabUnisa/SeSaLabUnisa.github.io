@@ -1,0 +1,88 @@
+{
+    "edition":6,
+    "year":2009,
+    "venue":"Computer Science building of the University of Salerno, Via Ponte don Melillo, Fisciano (SA), Italy",
+    "startdate": {
+        "day":14,
+        "month":9
+    },
+    "enddate": {
+        "day":18,
+        "month":9
+    },
+    "intro":"The sixth edition of the International Summer School on Software Engineering intends to provide a contribution to PhD students and academic and industrial researchers on latest findings in the field of Software Engineering.The invited lecturers are internationally recognised research leaders and will cover very relevant topics for the scientific community, including Requirements Engineering, Software Architectures, Distributed Systems, Wireless Sensor Networks, Software Maintenance, Software Measurement, Agile Software Development, Open Source Software, and Software Product Lines.The program of the school will aim at creating discussion forums betweenlecturers and industrial and academic attendees.",
+    "lectures": [
+        {
+            "name":"Jeff",
+            "surname": "Kramer",
+            "affiliation": "Imperial College of London, UK",
+            "title": "Model-based design and analysis of concurrent programs",
+            "img":""
+        },
+        {
+            "name":"Frank",
+            "surname": "Maurer",
+            "affiliation": "University of Calgary, Canada",
+            "title": "Agile Software Development",
+            "img":""
+        },
+        {
+            "name":"Sandro",
+            "surname": "Morasca",
+            "affiliation": "University of Insubria, Italy",
+            "title": "Fundamental Aspects of Software Measurement",
+            "img":""
+        },
+        {
+            "name":"Gian Pietro",
+            "surname": "Picco",
+            "affiliation": "University of Trento, Germany",
+            "title": "Wireless Sensor Networks: State-of-the-Art and Challenges for Software Engineers",
+            "img":""
+        },
+        {
+            "name":"Lori",
+            "surname": "Pollock",
+            "affiliation": "University of Delaware, Newark, USA",
+            "title": "Developing Natural Language-based Software Analyses & Tools to Expedite Software Maintenance",
+            "img":""
+        },
+        {
+            "name":"Frank",
+            "surname": "Van Der Linden",
+            "affiliation": "Philips Healthcare, The Netherlands",
+            "title": "Open source practices in software product line engineering",
+            "img":""
+        }
+    ],
+    "organization": {
+        "school director": [
+            {
+                "name":"Andrea",
+                "surname": "De Lucia",
+                "affiliation": "University of Salerno, Italy"
+            }
+        ],
+        "program co-chair": [
+            {
+                "name":"Filomena",
+                "surname": "Ferrucci",
+                "affiliation": "University of Salerno, Italy"
+            }
+        ]
+    },
+    "supporters": [
+        {
+            "name":"Facoltà di Scienze Matematiche Fisiche e Naturali, Università di Salerno",
+            "img": ""
+        },
+        {
+            "name":"Dottorato di Ricerca in Informatica, Università di Salerno",
+            "img": ""
+        },
+        {
+            "name":"Dipartimento di Matematica e Informatica, Università di Salerno",
+            "img": ""
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "edition":4,
+    "year":2007,
+    "venue":"Computer Science building of the University of Salerno, Via Ponte don Melillo, Fisciano (SA), Italy",
+    "startdate": {
+        "day":24,
+        "month":9
+    },
+    "enddate": {
+        "day":27,
+        "month":9
+    },
+    "intro":"The fourth edition of the International Summer School on Software Engineering intends to provide a contribution to PhD students and academic and industrial researchers on latest findings in the field of Software Engineering. The invited lecturers are internationally recognised research leaders and will cover very relevant topics for the scientific community, including Adaptability, Dependability, Security, and Usability in Requirements Engineering, Software Design, and Verification and Validation, as well as Model Driven Development, Web Engineering, Empirical Software Engineering, Cost Estimation, and Productivity Assessment.The program of the school will aim at creating discussion forums between lecturers and industrial and academic attendees. Submission of student talks and tool demos are also encouraged to further stimulate the discussion.",
+    "lectures": [
+        {
+            "name":"Paola",
+            "surname": "Inverardi",
+            "affiliation": "University of L'Aquila, Italy",
+            "title": "The Future of Software: Adaptation and Dependability",
+            "img":""
+        },
+        {
+            "name":"Natalia",
+            "surname": "Juristo",
+            "affiliation": "Technical University of Madrid, Spain",
+            "title": "Usability Implications on Software Requirements and Design",
+            "img":""
+        },
+        {
+            "name":"Emilia",
+            "surname": "Mendes",
+            "affiliation": "University of Auckland, New Zealand",
+            "title": "Web Cost Estimation, Productivity Assessment and Benchmarking",
+            "img":""
+        },
+        {
+            "name":"Bashar",
+            "surname": "Nuseibeh",
+            "affiliation": "The Open University, United Kingdom",
+            "title": "Security Requirements Engineering",
+            "img":""
+        },
+        {
+            "name":"Bran",
+            "surname": "Selic",
+            "affiliation": "IBM, Canada",
+            "title": "The Theory and Practice of Modeling Language Design for Model-Driven Developmentn",
+            "img":""
+        },
+        {
+            "name":"Giuseppe",
+            "surname": "Visaggio",
+            "affiliation": "University of Bari, Italy",
+            "title": "Knowledge Bases and Experience Factories",
+            "img":""
+        }
+    ],
+    "organization": {
+        "school director": [
+            {
+                "name":"Andrea",
+                "surname": "De Lucia",
+                "affiliation": "University of Salerno, Italy"
+            }
+        ],
+        "program co-chair": [
+            {
+                "name":"Filomena",
+                "surname": "Ferrucci",
+                "affiliation": "University of Salerno, Italy"
+            }
+        ],
+        "scientific secretariat": [
+            {
+                "name":"Sergio",
+                "surname": "Di Martino",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Fausto",
+                "surname": "Fasano",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Rocco",
+                "surname": "Oliveto",
+                "affiliation": "University of Salerno, Italy"
+            }
+        ]
+    },
+    "supporters": [
+        {
+            "name":"Università di Salerno",
+            "img": ""
+        },
+        {
+            "name":"Dipartimento di Matematica e Informatica, Università di Salerno",
+            "img": ""
+        },
+        {
+            "name":"Facoltà di Scienze Matematiche Fisiche e Naturali, Università di Salerno",
+            "img": ""
+        },
+        {
+            "name":"Dottorato di Ricerca in Informatica, Università di Salerno",
+            "img": ""
+        },
+        {
+            "name":"Project Metamorphos (PRIN 2006)",
+            "img": ""
+        }
+    ]
+}

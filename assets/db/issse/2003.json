@@ -1,0 +1,170 @@
+{
+    "edition":1,
+    "year":2003,
+    "venue":"Chancellor Building (Rettorato) of the Campus of the University of Salerno, Via Ponte don Melillo, Fisciano (SA), Italy",
+    "startdate": {
+        "day":9,
+        "month":9
+    },
+    "enddate": {
+        "day":11,
+        "month":9
+    },
+    "intro":"The International Summer School on Software Engineering (ISSSE 2003) intends to provide a contribution to PhD students and researchers on latest findings in the field of Software Engineering. The lectures will cover very relevant topics for the scientific community and will encourage discussion forums between lecturers and students. The program of the school includes both traditional and emergent topics of software engineering, ranging from requirement engineering, UML, verification and validation, and software architectures to open source software, empirical software engineering, legacy systems, and software evolution. Topics related to web engineering, web services, and agent-oriented software engineering will also be covered.",
+    "lectures": [
+        {
+            "name":"Keith",
+            "surname": "Bennett",
+            "affiliation": "University of Durham, UK",
+            "title": "Web Services and Software Evolution",
+            "img":""
+        },
+        {
+            "name":"Paolo",
+            "surname": "Ciancarini",
+            "affiliation": "University of Bologna, Italy",
+            "title": "Agent-Oriented Software Engineering",
+            "img":""
+        },
+        {
+            "name":"Alfonso",
+            "surname": "Fuggetta",
+            "affiliation": "Polytechnic of Milan, Italy",
+            "title": "Open Source and the Software Industry: Myths and Actual Opportunities",
+            "img":""
+        },
+        {
+            "name":"Carlo",
+            "surname": "Montangero",
+            "affiliation": "University of Pisa, Italy",
+            "title": "UML and Formal System Verification",
+            "img":""
+        },
+        {
+            "name":"Harry",
+            "surname": "Sneed",
+            "affiliation": "Case Consult GmbH, Germany",
+            "title": "Using XML to Integrate New and Legacy Business Systems",
+            "img":""
+        },
+        {
+            "name":"Giuseppe",
+            "surname": "Visaggio",
+            "affiliation": "University of Bari, Italy",
+            "title": "Empirical Experimentation in Software Engineering",
+            "img":""
+        }
+    ],
+    "organization": {
+        "school director": [
+            {
+                "name":"Maurizio",
+                "surname": "Tucci",
+                "affiliation": "University of Salerno, Italy"
+            }
+        ],
+        "scientific committee": [
+            {
+                "name":"Keith",
+                "surname": "Bennett",
+                "affiliation": "University of Durham, UK"
+            },
+            {
+                "name":"Paolo",
+                "surname": "Ciancarini",
+                "affiliation": "University of Bologna, Italy"
+            },
+            {
+                "name":"Gennaro",
+                "surname": "Costagliola",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Andrea",
+                "surname": "De Lucia",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Filomena",
+                "surname": "Ferrucci",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Alfonso",
+                "surname": "Fuggetta",
+                "affiliation": "Polytechnic of Milan, Italy"
+            },
+            {
+                "name":"Carlo",
+                "surname": "Ghezzi",
+                "affiliation": "Polytechnic of Milan, Italy"
+            },
+            {
+                "name":"Vincenzo",
+                "surname": "Loia",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Margherita",
+                "surname": "Napoli",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Carlo",
+                "surname": "Montangero",
+                "affiliation": "University of Pisa, Italy"
+            },
+            {
+                "name":"Harry",
+                "surname": "Sneed",
+                "affiliation": "Case Consult GmbH, Germany"
+            },
+            {
+                "name":"Genny",
+                "surname": "Tortora",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Giuseppe",
+                "surname": "Visaggio",
+                "affiliation": "University of Bari, Italy"
+            },
+            {
+                "name":"Giuliana",
+                "surname": "Vitiello",
+                "affiliation": "University of Salerno, Italy"
+            }
+        ],
+        "scientific secretariat": [
+            {
+                "name":"Rita",
+                "surname": "Francese",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Giuseppe",
+                "surname": "Scanniello",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Monica",
+                "surname": "Sebillo",
+                "affiliation": "University of Salerno, Italy"
+            }
+        ]
+    },
+    "supporters": [
+        {
+            "name":"Dipartimento di Matematica e Informatica, Università di Salerno",
+            "img": ""
+        },
+        {
+            "name":"Facoltà di Scienze Matematiche Fisiche e Naturali, Università di Salerno",
+            "img": ""
+        },
+        {
+            "name":"Dottorato di Ricerca in Informatica, Università di Salerno",
+            "img": ""
+        }
+    ]
+}

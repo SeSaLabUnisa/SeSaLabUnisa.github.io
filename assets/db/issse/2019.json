@@ -1,0 +1,122 @@
+{
+    "edition":14,
+    "year":2019,
+    "venue":"University of Salerno, Italy",
+    "startdate": {
+        "day":17,
+        "month":6
+    },
+    "enddate": {
+        "day":21,
+        "month":6
+    },
+    "intro":"The 14th edition of the International Summer School on Software Engineering intends to provide a contribution to PhD students and academic and industrial researchers on latest findings in the field of Software Engineering. The invited lecturers are international recognised research leaders and will cover relevant topics, including software design, software architectures, software testing, automated bug fixing, micro services, software containers, gender inclusive software, Internet of Things, mining software repositories, empirical software engineering, and search-based software engineering.",
+    "lectures": [
+        {
+            "name":"Luciano",
+            "surname": "Baresi",
+            "affiliation": "Polytechnic of Milan, Italy",
+            "title": "Micro Services, Containers and Software Engineering",
+            "img":""
+        },
+        {
+            "name":"Margaret",
+            "surname": "Burnett",
+            "affiliation": "Oregon State University, USA",
+            "title": "Engineering Inclusiveness into your Software",
+            "img":""
+        },
+        {
+            "name":"Mark",
+            "surname": "Harman",
+            "affiliation": "Facebook and University College London, UK",
+            "title": "Fault Finding and Fixing at Facebook",
+            "img": ""
+        },
+        {
+            "name":"Nenad",
+            "surname": "Medvidovic,",
+            "affiliation": "University of Southern California, USA",
+            "title": "Mining Software Repositories for Architectural Knowledge",
+            "img":""
+        },
+        {
+            "name":"Fabio",
+            "surname": "Palomba",
+            "affiliation": "University of Zurich, Switzerland",
+            "title": "Software Design 101: Improving the Design of Existing Code, Tests, and Communities",
+            "img":""
+        },
+        {
+            "name":"Ina",
+            "surname": "Schieferdecker,",
+            "affiliation": "Fraunhofer Institute for Open Communication Systems FOKUS, Germany",
+            "title": "IoT Testing and the Eclipse IoT Testware",
+            "img":""
+        }
+    ],
+    "organization": {
+        "school co-chairs": [
+            {
+                "name":"Andrea",
+                "surname": "De Lucia",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Filomena",
+                "surname": "Ferrucci",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Genny",
+                "surname": "Tortora",
+                "affiliation": "University of Salerno, Italy"
+            }
+        ],
+        "publicity co-chairs": [
+            {
+                "name":"Michele",
+                "surname": "Risi",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Pasquale",
+                "surname": "Salza",
+                "affiliation": "USI Università della Svizzera italiana, Switzerland"
+            }
+        ],
+        "finance chair": [
+            {
+                "name":"Paola",
+                "surname": "De Roberto",
+                "affiliation": "University of Salerno, Italy"
+            }
+        ],
+        "scientific secretariat": [
+            {
+                "name":"Gemma",
+                "surname": "Catolino",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Fabiano",
+                "surname": "Pecorelli",
+                "affiliation": "University of Salerno, Italy"
+            }
+        ]
+    },
+    "supporters": [
+        {
+            "name": "Università di Salerno",
+            "img": ""
+        },
+        {
+            "name":"Dipartimento di Informatica, Università di Salerno",
+            "img": ""
+        },
+        {
+            "name":"Cooperativa Me4job",
+            "img": ""
+        }
+    ]
+}

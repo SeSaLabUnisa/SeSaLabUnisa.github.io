@@ -1,0 +1,92 @@
+{
+    "edition":15,
+    "year":2021,
+    "venue":"Virtual Event",
+    "startdate": {
+        "day":6,
+        "month":7
+    },
+    "enddate": {
+        "day":15,
+        "month":7
+    },
+    "intro":"The International Summer School on Software Engineering (ISSSE 2021) aims at providing a forum to let Master and fresh Ph.D. students get in touch with top Software Engineering scholars and the research they pursue. The school is at its 15th edition and typically attracts around 30-40 Ph.D. students from all around the world.",
+    "lectures": [
+        {
+            "name":"Rick",
+            "surname": "Kazman",
+            "affiliation": "University of Hawaii, USA",
+            "title": "Finding and Fixing Design Debt",
+            "img": ""
+        },
+        {
+            "name":"Mark",
+            "surname": "Harman",
+            "affiliation": "Facebook and University College London, UK",
+            "title": "Challenges for Empirical Analysis and Validation of Cyber-Cyber Digital Twins; Experiences from Building on Facebook's Web-Enabled Simulation",
+            "img": ""
+        },
+        {
+            "name":"Michele",
+            "surname": "Tufano",
+            "affiliation": "Microsoft, USA",
+            "title": "Learning Code Transformation via Neural Machine Translation",
+            "img": ""
+        },
+        {
+            "name":"Laurie",
+            "surname": "Williams",
+            "affiliation": "Caroline State University, USA",
+            "title": "Supply Chain Software Security",
+            "img": ""
+        },
+        {
+            "name":"Gemma",
+            "surname": "Catolino",
+            "affiliation": "Jheronimus Academy of Data Science & Tilburg University, The Netherlands",
+            "title": "Human Aspects in Software Maintenance and Evolution",
+            "img": ""
+        },
+        {
+            "name":"David",
+            "surname": "Lo",
+            "affiliation": "Singapore Management University, Singapore",
+            "title": "From Data to Automation: Powering AIOps through Mining Issue Repositories",
+            "img": ""
+        }
+    ],
+    "organization": {
+        "school co-chairs": [
+            {
+                "name":"Fabio",
+                "surname": "Palomba",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Carmine",
+                "surname": "Gravino",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Filomena",
+                "surname": "Ferrucci",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Andrea",
+                "surname": "De Lucia",
+                "affiliation": "University of Salerno, Italy"
+            }
+        ]
+    },
+    "supporters": [
+        {
+            "name": "University of Salerno",
+            "img": ""
+        },
+        {
+            "name": "Department of Computer Science",
+            "img": ""
+        }
+    ]
+}

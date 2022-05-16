@@ -1,0 +1,91 @@
+{
+    "edition":7,
+    "year":2010,
+    "venue":"Computer Science building of the University of Salerno, Via Ponte don Melillo, Fisciano (SA), Italy",
+    "startdate": {
+        "day":5,
+        "month":7
+    },
+    "enddate": {
+        "day":9,
+        "month":7
+    },
+    "intro":"The seventh edition of the International Summer School on Software Engineering intends to provide a contribution to PhD students and academic and industrial researchers on latest findings in the field of Software Engineering.The invited lecturers are internationally recognised research leaders and will cover very relevant topics for the scientific community, including Human-Centered Software Engineering and Usability Engineering, Model Driven Software Engineering, Service Oriented Architectures, Adaptive and Self Managing Systems, Empirical Software Engineeering, Fault Prediction, Software Testing, Software Evolution, Program Comprehension, and Software Visualization. The program of the school will aim at creating discussion forums betweenlecturers and industrial and academic attendees.",
+    "lectures": [
+        {
+            "name":"Luciano",
+            "surname": "Baresi",
+            "affiliation": "Polytechnic of Milan, Italy",
+            "title": "Adaptive and Self-Managing Systems",
+            "img":""
+        },
+        {
+            "name":"Larry",
+            "surname": "Constantine",
+            "affiliation": "University of Madeira, Portugal",
+            "title": "Human-Centered Software Engineering: An Activity-Centered, Model-Driven Approach",
+            "img":""
+        },
+        {
+            "name":"Mary Jean",
+            "surname": "Harrold",
+            "affiliation": "Georgia Institute of Technology, USA",
+            "title": "Techniques for Improved Testing of Evolving Software",
+            "img":""
+        },
+        {
+            "name":"Michele",
+            "surname": "Lanza",
+            "affiliation": "University of Lugano, Switzerland",
+            "title": "Software Visualization - Principles & Practice",
+            "img":""
+        },
+        {
+            "name":"Andrian",
+            "surname": "Marcus",
+            "affiliation": "Wayne State University, USA",
+            "title": "Text Retrieval support for Concept Location in Software",
+            "img":""
+        },
+        {
+            "name":"Thomas",
+            "surname": "Ostrand",
+            "affiliation": "AT&T Labs, USA",
+            "title": "Fault Prediction Models - What Works, What Doesn't Pt.1",
+            "img":""
+        },
+        {
+            "name":"Elaine",
+            "surname": "Weyuker",
+            "affiliation": "AT&T Labs, USA",
+            "title": "Fault Prediction Models - What Works, What Doesn't Pt.2",
+            "img":""
+        }
+    ],
+    "organization": {
+        "school director": [
+            {
+                "name":"Andrea",
+                "surname": "De Lucia",
+                "affiliation": "University of Salerno, Italy"
+            }
+        ],
+        "program co-chair": [
+            {
+                "name":"Filomena",
+                "surname": "Ferrucci",
+                "affiliation": "University of Salerno, Italy"
+            }
+        ]
+    },
+    "supporters": [
+        {
+            "name":"Facoltà di Scienze Matematiche Fisiche e Naturali, Università di Salerno",
+            "img": ""
+        },
+        {
+            "name":"Dipartimento di Matematica e Informatica, Università di Salerno",
+            "img": ""
+        }
+    ]
+}

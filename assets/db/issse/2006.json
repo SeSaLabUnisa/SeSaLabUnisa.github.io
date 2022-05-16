@@ -1,0 +1,99 @@
+{
+    "edition":3,
+    "year":2006,
+    "venue":"Computer Science building of the University of Salerno, Via Ponte don Melillo, Fisciano (SA), Italy",
+    "startdate": {
+        "day":11,
+        "month":9
+    },
+    "enddate": {
+        "day":14,
+        "month":9
+    },
+    "intro":"The third edition of the International School on Software Engineering intends to provide a contribution to PhD students and academic and industrial researchers on latest findings in the field of Software Engineering. The invited lecturers are internationally recognised research leaders and will cover very relevant topics for the scientific community, including Software Evolution, Source Code Analysis, Software Architectures, Software Product Lines, Software Testing, Autonomic Computing, Service Oriented Computing, and Web Services. The program of the school will aim at creating discussion forums between lecturers and industrial and academic attendees. Besides traditional tutorials, lab sessions will be included in the program. Submission of student talks and tool demos will also be encouraged to further stimulate the discussion.",
+    "lectures": [
+        {
+            "name":"Jan",
+            "surname": "Bosch",
+            "affiliation": "Nokia Research Center, Finland",
+            "title": "Variability and Composability in Broadening Product Families",
+            "img":""
+        },
+        {
+            "name":"Gerardo",
+            "surname": "Canfora",
+            "affiliation": "University of Sannio, Italy",
+            "title": "Testing Services and Service-Centric Systems: Challenges and Opportunities Pt.1",
+            "img":""
+        },
+        {
+            "name":"Massimiliano",
+            "surname": "Di Penta",
+            "affiliation": "University of Sannio, Italy",
+            "title": "Testing Services and Service-Centric Systems: Challenges and Opportunities Pt.2",
+            "img":""
+        },
+        {
+            "name":"Carlo",
+            "surname": "Ghezzi",
+            "affiliation": "Polytechnic of Milan, Italy",
+            "title": "Evolution of Software Composition Mechanisms",
+            "img":""
+        },
+        {
+            "name":"Mehdi",
+            "surname": "Jazayeri",
+            "affiliation": "Univ. of Lugano, Switzerland & Technical Univ. of Vienna, Austria",
+            "title": "Software Evolution: Analysis and Visualization",
+            "img":""
+        },
+        {
+            "name":"Hausi",
+            "surname": "Mueller",
+            "affiliation": "University of Victoria, Canada",
+            "title": "Autonomic Computing: Now You See It, Now You Don't - Design and Evolution of Autonomic Software Systems",
+            "img":""
+        },
+        {
+            "name":"Barbara G.",
+            "surname": "Ryder",
+            "affiliation": "Rutgers University, USA",
+            "title": "Practical Program Analyses for Software Tools",
+            "img":""
+        }
+    ],
+    "organization": {
+        "school director": [
+            {
+                "name":"Andrea",
+                "surname": "De Lucia",
+                "affiliation": "University of Salerno, Italy"
+            }
+        ],
+        "program co-chair": [
+            {
+                "name":"Filomena",
+                "surname": "Ferrucci",
+                "affiliation": "University of Salerno, Italy"
+            }
+        ]
+    },
+    "supporters": [
+        {
+            "name":"Università di Salerno",
+            "img": ""
+        },
+        {
+            "name":"Dipartimento di Matematica e Informatica, Università di Salerno",
+            "img": ""
+        },
+        {
+            "name":"Facoltà di Scienze Matematiche Fisiche e Naturali, Università di Salerno",
+            "img": ""
+        },
+        {
+            "name":"Dottorato di Ricerca in Informatica, Università di Salerno",
+            "img": ""
+        }
+    ]
+}

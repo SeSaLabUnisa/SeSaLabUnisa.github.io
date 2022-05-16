@@ -1,0 +1,66 @@
+{
+    "edition":0,
+    "year":2000,
+    "venue":"University of Salerno, Italy",
+    "startdate": {
+        "day":0,
+        "month":0
+    },
+    "enddate": {
+        "day":0,
+        "month":0
+    },
+    "intro":"abstract or school description",
+    "lectures": [
+        {
+            "name":"name",
+            "surname": "surname",
+            "affiliation": "affiliation",
+            "title": "lecture1",
+            "img":"filename"
+        },
+        {
+            "name":"name",
+            "surname": "surname",
+            "affiliation": "affiliation",
+            "title": "lecture2",
+            "img":"filename"
+        }
+    ],
+    "organization": {
+        "committeerolename1": [
+            {
+                "name":"name",
+                "surname": "surname",
+                "affiliation": "affiliation"
+            },
+            {
+                "name":"name",
+                "surname": "surname",
+                "affiliation": "affiliation"
+            }
+        ],
+        "committeerolename2": [
+            {
+                "name":"name",
+                "surname": "surname",
+                "affiliation": "affiliation"
+            },
+            {
+                "name":"name",
+                "surname": "surname",
+                "affiliation": "affiliation"
+            }
+        ]
+    },
+    "supporters": [
+        {
+            "name": "supporter",
+            "img": "filename"
+        },
+        {
+            "name": "supporter",
+            "img": "filename"
+        }
+    ]
+}

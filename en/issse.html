@@ -1,0 +1,253 @@
+<!-- 
+if no parameter provided -- show ultima edizione 
+nel menu -- series con i vari link alle altre edizioni (issse.html?year=2021)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <meta name="description" content="International Summer School on Software Engineering SeSa Lab Salerno">
+  <meta name="keywords" content="issse,school,sesa,lab,software,engineering,research,salerno,computer,science,unisa">
+  <meta name="author" content="sesalab@unisa.it">
+
+  <title>ISSSE</title>
+  <base target="_blank" rel="noopener noreferrer">
+
+  <!-- Favicons -->
+  <link href="../assets/img/favicon.png" rel="icon">
+  <link href="../assets/img/favicon.png" rel="apple-touch-icon">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/flag-icons/css/flag-icons.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" target="_self" rel="noopener noreferrer" class="logo d-flex align-items-center">
+        <img src="../assets/img/logo/simple_white_text.png" alt="SeSa Lab">
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="#issse-banner">About</a></li>
+          <li><a class="nav-link scrollto" href="#program">Program</a></li>
+          <li id="registration-menu"><a class="nav-link scrollto" href="#registration">Attending</a></li>
+          <li><a class="nav-link scrollto" href="#organization">Organization</a></li>
+          <!--<li><a class="nav-link scrollto" href="#supporters">Supporters</a></li>-->
+          <li class="dropdown"><a href="#" target="_self" rel="noopener noreferrer"><span>Series</span><i
+                class="bi bi-chevron-down"></i></a>
+            <ul id="series-dropdown">
+              <li id="series-li-"><a id="series-link-" href="issse.html?year=" target="_self"
+                  rel="noopener noreferrer"></a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+
+  <main id="main">
+
+    <!-- ======= Intro Banner ======= -->
+    <section id="issse-banner" class="banner">
+      <div class="container">
+        <header class="section-header">
+          <h1><span id="issse-edition-number-span"></span> International Summer School on Software Engineering (ISSSE
+            <span id="issse-edition-year-span"></span>)</h1>
+          <h3><span id="issse-date-span"></span></h3>
+          <h3><span id="issse-venue-span"></span></h3>
+          <h2>Organized by <a href="index.html" target="_self" rel="noopener noreferrer">SeSa Lab</a></h2>
+        </header>
+      </div>
+    </section><!-- End Intro Banner-->
+
+
+    <!-- ======= About ======= -->
+
+    <section id="issse-about" class="issse-about">
+      <div class="container">
+
+        <div class="row gy-4 justify-content-center">
+
+          <div class="col-lg-8 col-md-10 d-flex flex-column justify-content-center">
+            <p id="issse-about-paragraph">
+
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+
+
+
+
+    <!-- ======= Program ======= -->
+
+    <section id="program" class="program">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h1>Program</h1>
+        </header>
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-8 col-md-10 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="talk-list" id="talk-list">
+              <p class="talk-title"></p>
+              <p class="talk-speaker"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Program Section -->
+
+
+    <!-- ======= Registration ======= -->
+    <section id="registration" class="registration">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0 justify-content-center">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h1>Attending</h1>
+              <p>
+                Do not miss the chance to attend!<br />
+                Check the registration page to reserve your seat!
+              </p>
+              <div class="text-center text-lg-start">
+                <a href="registration-form" target="_self" rel="noopener noreferrer"
+                  class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span>Registration</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End Registration Section -->
+
+
+    <!-- ======= Organization ======= -->
+
+    <section id="organization" class="organization">
+        <div class="container" data-aos="fade-up">
+  
+          <header class="section-header">
+            <h1>Organization</h1>
+          </header>
+  
+          <div class="row gy-4 justify-content-center">
+            <div class="col-lg-8 col-md-10 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+  
+              <div class="organizers-list" id="organizers-list">
+                <p class="organizers-title"></p>
+                <p class="organizers-member"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+    </section><!-- End Organization Section -->
+
+
+    <!-- ======= Contact ======= -->
+    <section id="contact" class="contact">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h1>Contact</h1>
+        </header>
+
+        <div class="row gy-4 justify-content-center">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="info-box">
+              <i class="bi bi-geo-alt"></i>
+              <h3>Address</h3>
+              <p><a href="https://www.unisa.it/" target="_blank" rel="noopener noreferrer">University of
+                  Salerno</a><br />F2 Building, Floor -1</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="info-box">
+              <i class="bi bi-telephone"></i>
+              <h3>Telephone</h3>
+              <p><br />+39 089 963381</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="info-box">
+              <i class="bi bi-envelope"></i>
+              <h3>Email</h3>
+              <p><br /><a href="mailto:sesalab@unisa.it">sesalab@unisa.it</a></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <a href="../index.html" target="_self" rel="noopener noreferrer">SeSa Lab</a>. All Rights
+        Reserved
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" target="_self" rel="noopener noreferrer"
+    class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/jquery/jquery-3.6.0.min.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/purecounter/purecounter.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../assets/js/main.js"></script>
+
+  <!-- ISSSE JS File -->
+  <script src="../assets/js/issse.js"></script>
+
+</body>
+
+</html>

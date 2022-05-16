@@ -1,0 +1,122 @@
+{
+    "edition":13,
+    "year":2017,
+    "venue":"University of Salerno, Italy",
+    "startdate": {
+        "day":19,
+        "month":6
+    },
+    "enddate": {
+        "day":23,
+        "month":6
+    },
+    "intro":"The 13th edition of the International Summer School on Software Engineering intends to provide a contribution to PhD students and academic and industrial researchers on latest findings in the field of Software Engineering. The invited lecturers will cover relevant topics, including software defect prediction, software systems, model-driven software engineering, empirical software engineering, search based software engineering, genetic improvement, software reuse, data science, and big data integration.",
+    "lectures": [
+        {
+            "name":"Tracy",
+            "surname": "Hall",
+            "affiliation": "Brunel University London, United Kingdom",
+            "title": "Building Defect Prediction Models",
+            "img":""
+        },
+        {
+            "name":"Mark",
+            "surname": "Harman,",
+            "affiliation": "Facebook and University College London, United Kingdom",
+            "title": "Software Transplantation for Reuse",
+            "img":""
+        },
+        {
+            "name":"Rocco",
+            "surname": "Oliveto",
+            "affiliation": "University of Molise, Italy",
+            "title": "Learning Empirical Software Engineering Empirically",
+            "img":""
+        },
+        {
+            "name":"Mauro",
+            "surname": "Pezzè",
+            "affiliation": "University of Milano Bicocca, Italy, and University of Italian Switzerland, Switzerland",
+            "title": "Self-Healing Software Systems",
+            "img":""
+        },
+        {
+            "name":"Stefano",
+            "surname": "Russo",
+            "affiliation": "University of Naples Federico II, Italy",
+            "title": "Model-Based Software Engineering and Certification",
+            "img":""
+        },
+        {
+            "name":"Letizia",
+            "surname": "Tanca",
+            "affiliation": "Politecnico di Milano, Italy",
+            "title": "An Introduction to Data Integration in the Big Data Era",
+            "img":""
+        }
+    ],
+    "organization": {
+        "school co-chairs": [
+            {
+                "name":"Andrea",
+                "surname": "De Lucia",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Filomena",
+                "surname": "Ferrucci",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Genny",
+                "surname": "Tortora",
+                "affiliation": "University of Salerno, Italy"
+            }
+        ],
+        "publicity co-chairs": [
+            {
+                "name":"Michele",
+                "surname": "Risi",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Pasquale",
+                "surname": "Salza",
+                "affiliation": "USI Università della Svizzera italiana, Switzerland"
+            }
+        ],
+        "finance chair": [
+            {
+                "name":"Paola",
+                "surname": "De Roberto",
+                "affiliation": "University of Salerno, Italy"
+            }
+        ],
+        "scientific secretariat": [
+            {
+                "name":"Gemma",
+                "surname": "Catolino",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Fabiano",
+                "surname": "Pecorelli",
+                "affiliation": "University of Salerno, Italy"
+            }
+        ]
+    },
+    "supporters": [
+        {
+            "name": "Università di Salerno",
+            "img": ""
+        },
+        {
+            "name":"Dipartimento di Informatica, Università di Salerno",
+            "img": ""
+        },
+        {
+            "name":"Cooperativa Me4job",
+            "img": ""
+        }
+    ]
+}
