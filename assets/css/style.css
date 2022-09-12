@@ -156,6 +156,7 @@ section {
 
 .header .logo {
   line-height: 0;
+  margin-left: -10px;
 }
 
 .header .logo img {
@@ -778,6 +779,7 @@ section {
   color: var(--sesa-dark);
   font-weight: 700;
   margin: 0;
+  padding-top: 0px;
 }
 
 .research .research-box i {
@@ -1649,7 +1651,7 @@ section {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
+  width: 120px;
   border-radius: 50%;
   border: 4px solid #fff;
   margin: 0 auto;
@@ -1688,10 +1690,6 @@ section {
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #4154f1;
-}
-
-.testimonials .swiper-slide {
-  opacity: 0.3;
 }
 
 @media (max-width: 1199px) {
@@ -1738,9 +1736,13 @@ section {
   transition: 0.3s;
 }
 
-.team .member:hover {
-  transition: 0.5s;
-  transform: scale(1.1);
+
+
+@media screen and (min-width:800px) {
+  .team .member:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+  }
 }
 
 .team .member .member-img {
@@ -1815,16 +1817,12 @@ section {
 }
 
 .clients .clients-slider .swiper-slide {
-  border-radius: 4px;
-  background-color: rgb(200, 200, 200);
-  padding: 24px 20px;
-  box-shadow: 0px 0 30px rgba(200, 200, 200, 0.3);
+  border-radius: 4px;  
   transition: 0.3s;
   height: 100%;
 }
 
-.clients .clients-slider .swiper-slide:hover {
-  background: rgba(250, 250, 250, 0.8);
+.clients .clients-slider .swiper-slide:hover { 
   transition: 0.5s;
   transform: scale(1.1);
 }
@@ -1835,22 +1833,32 @@ section {
 }
 
 .clients .clients-slider .swiper-pagination {
-  margin-top: 20px;
+  margin-top: 30px;
   position: relative;
 }
 
 .clients .clients-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: var(--sesa-dark);
+  background-color: var(--sesa-gray-blue);
   opacity: 1;
-  border: 1px solid var(--sesa-dark);
+  border: 1px solid var(--sesa-gray-blue);
 }
 
 .clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--sesa-white);
-  border: 1px solid var(--sesa-white);
+  background-color: var(--sesa-darker);
+  border: 1px solid var(--sesa-darker);
 }
+
+.testimonial {
+  width: 128px;
+  height: 128px;
+}
+
+.testimonial img {
+  width: 100%;
+}
+
 
 /*--------------------------------------------------------------
 # Recent Blog Posts
@@ -2939,4 +2947,122 @@ h3 {
 
 .organizers-member {
   padding-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Education
+--------------------------------------------------------------*/
+.service-box > img {
+  border-radius: 5%;
+  margin: 10px;
+}
+
+
+.service-box > .read-more {
+  position: absolute;
+  bottom: 20px; 
+  right: 20px;
+  margin: 0 auto;
+}
+
+.service-box > .curriculum {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  font-size: 14px; 
+  padding: 5px 10px;
+  border: 2px solid var(--sesa-dark);
+  background-color: var(--sesa-dark); 
+  color: white;
+  border-radius: 8px;
+}
+
+.services .service-box.sesa-blue {
+  border-bottom: 3px solid var(--sesa-blue);
+}
+.services .service-box.sesa-blue .icon {
+  color: var(--sesa-blue);
+  background: var(--sesa-white);
+}
+.services .service-box.sesa-blue .read-more {
+  color: var(--sesa-dark);
+}
+.services .service-box.sesa-blue:hover .read-more {
+  color: var(--sesa-white);
+}
+.services .service-box.sesa-blue:hover {
+  background: var(--sesa-blue);
+}
+.services .service-box.sesa-blue:hover .curriculum {
+  background: var(--sesa-white);
+  color: var(--sesa-dark);
+  border: 2px solid var(--sesa-white);
+}
+
+
+.faq .accordion-button:not(.collapsed) {
+  background: none;
+  color: var(--sesa-blue);
+  border-bottom: 0;
+}
+
+.portfolio-wrap {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.portfolio-info {
+  padding: 20px;
+  background-color: white;
+}
+
+.portfolio {
+  background-color: var(--sesa-gray);
+}
+
+.tree1 {
+  position: absolute;
+  margin-top: -100px;
+  margin-left: -360px;
+  width: 70px;
+  animation: shake1 4s;
+  animation-iteration-count: infinite;
+}
+
+.tree2 {
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 300px;
+  width: 70px;
+  animation: shake2 4s;
+  animation-iteration-count: infinite;
+}
+@media (max-width: 700px) {
+  .tree1 {
+    display: none;
+  }
+  
+  .tree2 {
+    display: none;
+  }
+}
+@keyframes shake1 { 
+  0% { transform: rotate(0deg); }
+  20% { transform:  rotate(-6deg); } 
+  40% { transform:  rotate(6deg); }
+  60% { transform: rotate(-6deg); } 
+  80% { transform:  rotate(6deg); }
+  100% { transform: rotate(0deg); }
+}
+@keyframes shake2 { 
+  0% { transform: rotate(0deg); }
+  20% { transform:  rotate(6deg); } 
+  40% { transform:  rotate(-6deg); }
+  60% { transform: rotate(6deg); } 
+  80% { transform:  rotate(-6deg); }
+  100% { transform: rotate(0deg); }
 }

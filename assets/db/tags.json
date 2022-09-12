@@ -1,0 +1,90 @@
+[
+    {
+        "id": "ai",
+        "name": {
+            "it": "Intelligenza Artificiale",
+            "en": "Artificial Intelligence"
+        },
+        "description": {
+            "it": "Nel contesto di una tesi collegata all’ambito dell’intelligenza artificiale, l’obiettivo è quello di definire e/o utilizzare strumenti basati su algoritmi di (1) apprendimento supervisionato o non supervisionato; (2) ricerca ed ottimizzazione; (3) elaborazione del linguaggio naturale; (4) apprendimento avanzato basato su deep o quantum machine learning per la risoluzione di problemi del mondo reale.",
+            "en": "Translation unavailable"
+        }
+    },
+    {
+        "id": "cyberthreat-intelligence",
+        "name": {
+            "it": "Cyberthreat Intelligence",
+            "en": "Cyberthreat Intelligence"
+        },
+        "description": {
+            "it": "Questo campo riguarda l’applicazione di tecniche di IA per la protezione di spazi urbani, l’analisi e preventiva classificazione di siti web malevoli, e, più in generale, a tutto ciò che necessita di azioni preventive contro attività criminali.",
+            "en": "Translation unavailable"
+        }
+    },
+    {
+        "id": "deep-learning",
+        "name": {
+            "it": "Deep Learning",
+            "en": "Deep Learning"
+        },
+        "description": {
+            "it": "Non disponibile",
+            "en": "Unavailable"
+        }
+    },
+    {
+        "id": "deep-web",
+        "name": {
+            "it": "Deep Web",
+            "en": "Deep Web"
+        },
+        "description": {
+            "it": "Non disponibile",
+            "en": "Unavailable"
+        }
+    },
+    {
+        "id": "genetic-algorithms",
+        "name": {
+            "it": "Algoritmi Genetici",
+            "en": "Genetic Algorithms"
+        },
+        "description": {
+            "it": "Non disponibile",
+            "en": "Unavailable"
+        }
+    },
+    {
+        "id": "vulnerabilities",
+        "name": {
+            "it": "Vulnerabilità del Software",
+            "en": "Software Vulnerabilities"
+        },
+        "description": {
+            "it": "Non disponibile",
+            "en": "Unavailable"
+        }
+    },
+    {
+        "id": "community-smells",
+        "name": {
+            "it": "Community Smells",
+            "en": "Community Smells"
+        },
+        "description": {
+            "it": "Non disponibile",
+            "en": "Unavailable"
+        }
+    },
+    {
+        "id": "human-aspects",
+        "name": {
+            "it": "Aspetti Umani dell'Ingegneria del Software",
+            "en": "Human Aspects of Software Engineering"
+        },
+        "description": {
+            "it": "Non disponibile",
+            "en": "Unavailable"
+        }
+    }
+]

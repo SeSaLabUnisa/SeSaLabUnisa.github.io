@@ -1,0 +1,187 @@
+[
+    {
+        "title": {
+            "it": "Definizione di un modello di deep learning capace di predire potenziali attacchi terroristici in spazi pubblici",
+            "en": "Translation unavailable"
+        },
+        "description": {
+            "it": "Non avendo a disposizione un grosso ammontare di dati reali relativi ad attacchi terroristici, si è utilizzato il gioco Grand Theft Auto V per simulare attacchi terroristici e poter quindi addestrare una rete neurale capace di lavorare in contesti reali.",
+            "en": "Translation unavailable"
+        },
+        "degree": [
+            "bachelor",
+            "master"
+        ],
+        "tags": [
+            "cyberthreat-intelligence",
+            "ai",
+            "deep-learning"
+        ],
+        "professors": [
+            "palomba"
+        ],
+        "tutors": [
+        ],
+        "resources": [
+            "https://fpalomba.github.io/pdf/Conferencs/C52.pdf",
+            "https://it.wikipedia.org/wiki/Grand_Theft_Auto_V"
+        ]
+    },
+    {
+        "title": {
+            "it": "Costruzione di modelli predittivi per classificare le attività terroristiche/malevoli perpetrate nei siti del deep e dark web",
+            "en": "Translation unavailable"
+        },
+        "description": {
+            "it": "In molti casi alcune caratteristiche di questi siti -- caratteristiche sia strutturali, ad esempio attributi del codice sorgente, così come caratteristiche semantiche, ad esempio il testo contenuto nelle descrizioni e nei commenti di questi siti -- possano potenzialmente essere usate per addestrare modelli che consentano alla polizia postale di agire preventivamente.",
+            "en": "Translation unavailable"
+        },
+        "degree": [
+            "bachelor",
+            "master"
+        ],
+        "tags": [
+            "cyberthreat-intelligence",
+            "ai",
+            "deep-web"
+        ],
+        "professors": [
+            "palomba"
+        ],
+        "tutors": [
+        ],
+        "resources": [
+        ]
+    },
+    {
+        "title": {
+            "it": "Utilizzo di Algoritmi di Ricerca per Modelli Predittivi",
+            "en": "Translation unavailable"
+        },
+        "description": {
+            "it": "Nonostante il machine learning sia estremamente popolare, ha bisogno di una notevole mole di dati ed esempi precedentemente classificati. Questo può essere un problema in contesti in cui i dati non sono disponibili. Un’alternativa alla definizione di modelli predittivi è rappresentata dalla creazione di algoritmi genetici. In questo caso, si definiscono degli algoritmi che non evolvono stringhe e/o array numerici, ma interi alberi decisionali così che una funzione di fitness possa stabilire quale albero decisionale possa essere più adatto alla risoluzione di un determinato problema. In questo modo, non si ha bisogno di alcun training, poiché l’albero è addestrato iterativamente tramite un processo di ricerca. Tesi in questo ambito potrebbero andare nell’ottica dello sviluppo di un algoritmo genetico come alternativa ad una tecnica di machine learning per un qualche problema noto, ad esempio il problema di identificare vulnerabilità piuttosto che altri problemi del software e non.",
+            "en": "Translation unavailable"
+        },
+        "degree": [
+            "bachelor",
+            "master"
+        ],
+        "tags": [
+            "genetic-algorithms",
+            "ai",
+            "vulnerabilities"
+        ],
+        "professors": [
+            "palomba"
+        ],
+        "tutors": [
+        ],
+        "resources": [
+        ]
+    },
+    {
+        "title": {
+            "it": "Intelligenza Artificiale applicata a problemi di interazione uomo-macchina",
+            "en": "Translation unavailable"
+        },
+        "description": {
+            "it": "L’interazione uomo-macchina è un campo particolarmente interessante per l’IA. Una tesi recente ha portato alla definizione di algoritmi di ricerca che possano, in maniera automatica, modificare i colori di un’applicazione mobile in maniera tale da venire incontro alle esigenze degli utenti. Si pensi al caso degli utenti daltonici: molte app non sono ottimizzate per loro, pertanto sarebbe opportuno disporre di algoritmi capaci di rendere le interfacce grafiche più adatte al loro modo di vedere. Problemi simili potrebbero essere affrontati nel contesto di tesi di laurea triennali e magistrali. Un altro contesto interessante è rappresentato dai cosiddetti dark pattern, ovvero delle interfacce grafiche definite in maniera da ingannare o scoraggiare l’utente ad effettuare operazioni non desiderate: ad esempio, richiedere l’eliminazione dell’account da siti come Amazon.com risulta particolarmente difficile. Tesi in questo ambito consistono nella definizione di tecniche di ricerca e/o apprendimento per l’identificazione di diverse tipologie di dark pattern, al fine di aumentare la consapevolezza degli utenti quando questi dovranno interagire con siti web. Di norma, tesi di questo tipo vedono la collaborazione con il gruppo di Human-Computer Interaction dell’Università di Salerno.",
+            "en": "Translation unavailable"
+        },
+        "degree": [
+            "bachelor",
+            "master"
+        ],
+        "tags": [
+            "hci",
+            "ai",
+            "dark-patterns"
+        ],
+        "professors": [
+            "palomba"
+        ],
+        "tutors": [
+        ],
+        "resources": [
+            "https://www.darkpatterns.org"
+        ]
+    },
+    {
+        "title": {
+            "it": "Ingegnerizzazione di pipeline di machine learning",
+            "en": "Translation unavailable"
+        },
+        "description": {
+            "it": "Gli approcci di machine learning prevedono la definizione di pipeline, ovvero di sequenze di operazioni aventi l’obiettivo di estrarre i dati necessari alla predizione, il loro preprocessing, oltre che la configurazione appropriata di algoritmi di apprendimento. Ognuno degli elementi di tali sequenze ha un impatto notevole sulle prestazioni della tecnica di machine learning. Possibili tesi in questo ambito consistono nella definizione o valutazione delle pipeline di machine learning per i problemi menzionati precedentemente o problemi di particolare interesse dello studente.",
+            "en": "Translation unavailable"
+        },
+        "degree": [
+            "bachelor",
+            "master"
+        ],
+        "tags": [
+            "pipeline",
+            "ai"
+        ],
+        "professors": [
+            "palomba"
+        ],
+        "tutors": [
+        ],
+        "resources": [
+        ]
+    },
+    {
+        "title": {
+            "it": "Explainable AI",
+            "en": "Translation unavailable"
+        },
+        "description": {
+            "it": "La capacità di creare tecniche di IA capaci di poter rendere comprensibili le attività svolte da altre tecniche di IA è un recente trend di interesse. Ad esempio, tecniche di questo tipo riescono a “capire” il modo in cui i modelli predittivi arrivano ad una decisione così da poter dare all’utente una spiegazione in linguaggio naturale del motivo per cui una cosa è stata classificata in un certo modo. Tesi triennali e magistrali di questo tipo mirano (1) alla valutazione empirica di approcci esistenti e (2) miglioramento di tecniche esistenti tramite l’applicazione di euristiche e/o modelli di ricerca/apprendimento.",
+            "en": "Translation unavailable"
+        },
+        "degree": [
+            "bachelor",
+            "master"
+        ],
+        "tags": [
+            "explainable",
+            "ai"
+        ],
+        "professors": [
+            "palomba"
+        ],
+        "tutors": [
+        ],
+        "resources": [
+        ]
+    },
+    {
+        "title": {
+            "it": "Origin Country Imputation",
+            "en": "Translation unavailable"
+        },
+        "description": {
+            "it": "Oggigiorno, la necessità di individuare fattori capaci di influenzare l’emergere di problemi sia in aspetti di processo che di prodotto software è sempre più marcata. Relativamente a problemi di natura sociale nei team di sviluppo software, e.g., Community Smells, alcuni studi hanno dimostrato come tali problemi possono essere influenzati da caratteristiche culturali degli sviluppatori. Ciò nonostante, ad oggi non è presente una tecnica capace di determinare il paese di origine (fattore essenziale per la cultura di un individuo) di uno sviluppatore attraverso l’uso di multiple sorgenti (nome, cognome, scrittura, lingua, etc.) e in modo efficiente. L’idea è di sviluppare un sistema, che usi tecniche di Intelligenza Artificiale, capace di determinare il paese di origine di uno sviluppatore prendendo in input informazioni da diverse sorgenti. Tale sistema poi, potrebbe essere pensato per funzionare come servizio, al fine di integrare le sue funzionalità in diversi altri sistemi, come Bot (o Conversational Agent)",
+            "en": "Translation unavailable"
+        },
+        "degree": [
+            "bachelor",
+            "master"
+        ],
+        "tags": [
+            "community-smells",
+            "ai",
+            "human-aspects"
+        ],
+        "professors": [
+            "palomba"
+        ],
+        "tutors": [
+            "lambiase"
+        ],
+        "resources": [
+        ]
+    },
+    {"TODO": "Intelligenza Artificiale Applicata a Problemi di Sviluppo ed Evoluzione di Progetti Software" }
+]

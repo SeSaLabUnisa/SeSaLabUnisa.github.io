@@ -1,0 +1,18 @@
+[
+    {
+        "title":"Ingegneria del Software",
+        "description":"I concetti dell'Ingegneria del Software, i relativi processi, attività e deliverables, metodi di analisi e progettazione, linguaggi di modellazione, tecniche di verifica e convalida.",
+        "curriculum":"Corso di laurea Triennale",
+        "url":"https://corsi.unisa.it/informatica/didattica/insegnamenti?anno=2022&id=507546",
+        "professors": [
+            {
+                "image":"../assets/img/team/lambiase.jpg",
+                "url":""
+            },
+            {
+                "image":"../assets/img/team/lambiase.jpg",
+                "url":""
+            }
+        ]
+    }
+]

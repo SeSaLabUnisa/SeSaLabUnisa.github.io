@@ -11,7 +11,8 @@ $(document).ready(function () {
         $("#registration-menu").remove();
     }
     // fill page with info about the edition
-    $.getJSON('https://sesalabunisa.github.io/assets/db/issse/'+year+'.json', fillinfo);
+    //$.getJSON('https://sesalabunisa.github.io/assets/db/issse/'+year+'.json', fillinfo);
+    $.getJSON('https://raw.githubusercontent.com/giuliasellitto7/sesa-website/main/assets/db/issse/' + year + '.json', fillinfo);
 });
 
 
