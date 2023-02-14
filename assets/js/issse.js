@@ -1,18 +1,21 @@
-const editions = ["2021", "2019", "2017", "2016", "2014", "2013", "2012", "2011", "2010", "2009", "2008", "2007", "2006", "2005", "2003"];
+const editions = ["2023", "2021", "2019", "2017", "2016", "2014", "2013", "2012", "2011", "2010", "2009", "2008", "2007", "2006", "2005", "2003"];
+const old_editions = ["2021", "2019", "2017", "2016", "2014", "2013", "2012", "2011", "2010", "2009", "2008", "2007", "2006", "2005", "2003"];
 
 $(document).ready(function () {
     populateseries();
     year = getyear();
     $("title").append(" " + year);
     $("#series-link-" + year).addClass("active");
-    if (year !== "2022") {
-        //if (year !== editions[0]) {
+    if (old_editions.includes(year)) {
+        // the default page for older editions will be populated
         $("#registration").remove();
         $("#registration-menu").remove();
+        // fill page with info about the edition
+        $.getJSON('https://sesalabunisa.github.io/assets/db/issse/' + year + '.json', fillinfo);
     }
-    // fill page with info about the edition
-    //$.getJSON('https://sesalabunisa.github.io/assets/db/issse/'+year+'.json', fillinfo);
-    $.getJSON('https://raw.githubusercontent.com/giuliasellitto7/sesa-website/main/assets/db/issse/' + year + '.json', fillinfo);
+    else {
+        window.location.replace("https://sesalabunisa.github.io/ISSSE-" + year + "/");
+    }
 });
 
 
