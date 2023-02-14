@@ -43,7 +43,13 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="issse.html" target="_self" rel="noopener noreferrer"><span>ISSSE</span><i class="bi bi-chevron-right"></i></a></li>
+          <li class="dropdown"><a href="#" target="_self" rel="noopener noreferrer"><span>ISSSE</span><i
+                  class="bi bi-chevron-down"></i></a>
+            <ul id="series-dropdown">
+              <li id="series-li-"><a id="series-link-" href="issse.html?year=" target="_self"
+                                     rel="noopener noreferrer"></a></li>
+            </ul>
+          </li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li><a class="nav-link scrollto" href="#research">Research</a></li>
           <li><a class="nav-link scrollto" href="education.html" target="_self" rel="noopener noreferrer"><span>Education</span><i class="bi bi-chevron-right"></i></a></li>
@@ -51,7 +57,7 @@
           <li class="dropdown"><a href="#" target="_self" rel="noopener noreferrer"><span class="flag-icon flag-icon-gb"></span
             ><i
             class="bi bi-chevron-down"></i></a>
-            <ul id="series-dropdown">
+            <ul id="lang-dropdown">
               <li>
                 <a
                   class="nav-link scrollto"
@@ -1057,6 +1063,27 @@
 
   <!-- Template Main JS File -->
   <script src="../assets/js/main.js"></script>
+
+  <!-- ISSSE series dropdown -->
+  <script>
+    $(document).ready(function () {
+      $.getJSON('https://sesalabunisa.github.io/assets/db/issse/editions.json', editions => {
+        ul = $("#series-dropdown");
+        li = $("#series-li-");
+        editions.forEach(edyear => {
+          newli = li.clone(true);
+          newli.attr("id", newli.attr("id") + edyear);
+          newa = newli.children("a");
+          newa.attr("id", newa.attr("id") + edyear);
+          newa.attr("href", newa.attr("href") + edyear);
+          newa.text(edyear);
+          ul.append(newli);
+        });
+        li.remove();
+      });
+
+    });
+  </script>
 
 </body>
 
