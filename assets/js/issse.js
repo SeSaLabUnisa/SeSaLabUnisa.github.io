@@ -1,21 +1,34 @@
-const editions = ["2023", "2021", "2019", "2017", "2016", "2014", "2013", "2012", "2011", "2010", "2009", "2008", "2007", "2006", "2005", "2003"];
-const old_editions = ["2021", "2019", "2017", "2016", "2014", "2013", "2012", "2011", "2010", "2009", "2008", "2007", "2006", "2005", "2003"];
 
 $(document).ready(function () {
-    populateseries();
-    year = getyear();
-    $("title").append(" " + year);
-    $("#series-link-" + year).addClass("active");
-    if (old_editions.includes(year)) {
-        // the default page for older editions will be populated
-        $("#registration").remove();
-        $("#registration-menu").remove();
-        // fill page with info about the edition
-        $.getJSON('https://sesalabunisa.github.io/assets/db/issse/' + year + '.json', fillinfo);
-    }
-    else {
-        window.location.replace("https://sesalabunisa.github.io/ISSSE-" + year + "/");
-    }
+    $.getJSON('https://sesalabunisa.github.io/assets/db/issse/editions.json', populateseries);
+    $.getJSON('https://sesalabunisa.github.io/assets/db/issse/editions.json', editions => {
+        // default page: about last edition
+        year = editions[0];
+        // get specific year requested (if any)
+        urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.has('year')) {
+            var y = urlParams.get('year');
+            if (editions.includes(y)) {
+                year = y;
+            }
+        }
+        // year fetched. redirecting to correct page
+        $.getJSON('https://sesalabunisa.github.io/assets/db/issse/old-editions.json', old_editions => {
+                if (old_editions.includes(year)) {
+                    // the default page for older editions will be populated
+                    $("title").append(" " + year);
+                    $("#series-link-" + year).addClass("active");
+                    $("#registration").remove();
+                    $("#registration-menu").remove();
+                    // fill page with info about the edition
+                    $.getJSON('https://sesalabunisa.github.io/assets/db/issse/' + year + '.json', fillinfo);
+                }
+                else {
+                    window.location.replace("https://sesalabunisa.github.io/ISSSE-" + year + "/");
+                }
+            }
+        );
+    });
 });
 
 
@@ -96,20 +109,7 @@ function formatdate(startdate, enddate) {
 }
 
 
-function getyear() {
-    urlParams = new URLSearchParams(window.location.search);
-    if (urlParams.has('year')) {
-        var y = urlParams.get('year');
-        if (editions.includes(y)) {
-            return y;
-        }
-    }
-    // default page: about last edition
-    return editions[0];
-}
-
-
-function populateseries() {
+function populateseries(editions) {
     ul = $("#series-dropdown");
     li = $("#series-li-");
     editions.forEach(edyear => {
