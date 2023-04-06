@@ -13,45 +13,45 @@
     "intro": "The eight edition of the International Summer School on Software Engineering intends to provide a contribution to PhD students and academic and industrial researchers on latest findings in the field of Software Engineering. The invited lecturers are internationally recognised research leaders and will cover very relevant topics for the scientific community, including Requirements Engineering, Service Oriented Architectures, Empirical Software Engineering, Software Processes, and Source Code Analysis. The program of the school will aim at creating discussion forums between lecturers and industrial and academic attendees. Submission of student talks and tool demos will also be encouraged to further stimulate the discussion.",
     "lectures": [
         {
-            "name": "Elisabetta",
-            "surname": "Di Nitto",
-            "affiliation": "Politecnico di Milano, Italy",
-            "title": "Adaptive Software Systems",
+            "name": "Rick",
+            "surname": "Kazman",
+            "affiliation": "University of Hawaii, USA",
+            "title": "Finding and Fixing Design Debt",
             "img": ""
         },
         {
-            "name": "Jens",
-            "surname": "Krinke",
-            "affiliation": "University College London, UK",
-            "title": "Clone Detection and Code Provenance",
+            "name": "Mark",
+            "surname": "Harman",
+            "affiliation": "Facebook and University College London, UK",
+            "title": "Challenges for Empirical Analysis and Validation of Cyber-Cyber Digital Twins; Experiences from Building on Facebook's Web-Enabled Simulation",
             "img": ""
         },
         {
-            "name": "Axel",
-            "surname": "van Lamsweerde",
-            "affiliation": "Université Catholique de Louvain, Belgium",
-            "title": "Model-Based Requirements Engineering",
+            "name": "Michele",
+            "surname": "Tufano",
+            "affiliation": "Microsoft, USA",
+            "title": "Learning Code Transformation via Neural Machine Translation",
             "img": ""
         },
         {
-            "name": "Maurizio",
-            "surname": "Morisio",
-            "affiliation": "Politecnico di Torino, Italy",
-            "title": "Success and Failure Factors for Software Projects",
+            "name": "Laurie",
+            "surname": "Williams",
+            "affiliation": "Caroline State University, USA",
+            "title": "Supply Chain Software Security",
             "img": ""
         },
         {
-            "name": "Martin",
-            "surname": "Shepperd",
-            "affiliation": "Brunel University, UK",
-            "title": "Empirical Software Engineering: Combining Evidence and Meta-Analysis",
+            "name": "Gemma",
+            "surname": "Catolino",
+            "affiliation": "Jheronimus Academy of Data Science & Tilburg University, The Netherlands",
+            "title": "Human Aspects in Software Maintenance and Evolution",
             "img": ""
         },
         {
-            "name": "Andrea",
-            "surname": "Zisman",
-            "affiliation": "City University London, UK",
-            "title": "Discovering Services",
+            "name": "David",
+            "surname": "Lo",
+            "affiliation": "Singapore Management University, Singapore",
+            "title": "From Data to Automation: Powering AIOps through Mining Issue Repositories",
             "img": ""
         }
     ],
