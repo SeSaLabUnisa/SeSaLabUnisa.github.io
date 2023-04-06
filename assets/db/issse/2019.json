@@ -35,7 +35,7 @@
         },
         {
             "name":"Nenad",
-            "surname": "Medvidovic,",
+            "surname": "Medvidovic",
             "affiliation": "University of Southern California, USA",
             "title": "Mining Software Repositories for Architectural Knowledge",
             "img":""
@@ -49,7 +49,14 @@
         },
         {
             "name":"Ina",
-            "surname": "Schieferdecker,",
+            "surname": "Schieferdecker",
+            "affiliation": "Fraunhofer Institute for Open Communication Systems FOKUS, Germany",
+            "title": "IoT Testing and the Eclipse IoT Testware",
+            "img":""
+        },
+        {
+            "name":"Axel",
+            "surname": "Rennoch",
             "affiliation": "Fraunhofer Institute for Open Communication Systems FOKUS, Germany",
             "title": "IoT Testing and the Eclipse IoT Testware",
             "img":""
