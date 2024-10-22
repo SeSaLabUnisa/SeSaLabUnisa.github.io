@@ -20,6 +20,9 @@ const tutoringDates = [
     { date: "2024-12-16", dayName: "Lunedì 16/12/2024, Lab. Sammet", time: "11:00 - 13:00" }
 ];
 
+// Inizializza Firestore
+const db = firebase.firestore();
+
 // Funzione per controllare se una data è prenotabile (attivabile 3 giorni prima)
 function isDateAvailable(tutoringDate) {
     const currentDate = new Date();
@@ -29,21 +32,28 @@ function isDateAvailable(tutoringDate) {
     return diffDays <= 3;
 }
 
-// Carica le prenotazioni dal file CSV
-function loadBookingsFromCSV() {
-    fetch('prenotazioni_tutorato.csv')
-        .then(response => response.text())
-        .then(csvData => {
-            const lines = csvData.split('\n').slice(1); // Salta l'intestazione
-            lines.forEach(line => {
-                const [date, slot, projectName, firstName, lastName, studentId, email] = line.split(',');
-                if (date && slot && projectName) { // Controlla che ci siano dati validi
-                    bookings.push({ date: date.trim(), slot: slot.trim(), projectName: projectName.trim(), firstName: firstName.trim(), lastName: lastName.trim(), studentId: studentId.trim(), email: email.trim() });
-                }
+// Aggiungi una prenotazione al database
+function addBookingToFirebase(booking) {
+    db.collection("bookings").add(booking)
+        .then(() => {
+            alert("Prenotazione effettuata con successo!");
+            loadBookingsFromFirebase(); // Ricarica le prenotazioni
+        })
+        .catch(error => console.error("Errore nell'aggiunta della prenotazione:", error));
+}
+
+// Carica le prenotazioni dal database
+function loadBookingsFromFirebase() {
+    bookings.length = 0; // Pulisce l'array locale
+    db.collection("bookings").get()
+        .then(snapshot => {
+            snapshot.forEach(doc => {
+                const booking = doc.data();
+                bookings.push(booking);
             });
             updateSlots(); // Aggiorna gli slot in base alle prenotazioni caricate
         })
-        .catch(error => console.error('Errore nel caricamento del file CSV:', error));
+        .catch(error => console.error("Errore nel caricamento delle prenotazioni:", error));
 }
 
 // Salva le prenotazioni nel file CSV
@@ -118,7 +128,7 @@ document.getElementById("bookingForm").addEventListener("submit", function (e) {
     const date = document.getElementById("date").value;
     const slot = document.getElementById("slot").value;
     const projectName = document.getElementById("projectName").value.trim();
-    const normalizedProjectName = projectName.toLowerCase(); // Normalizza il nome del progetto
+    const normalizedProjectName = projectName.toLowerCase();
     const firstName = document.getElementById("firstName").value.trim();
     const lastName = document.getElementById("lastName").value.trim();
     const studentId = document.getElementById("studentId").value.trim();
@@ -136,21 +146,13 @@ document.getElementById("bookingForm").addEventListener("submit", function (e) {
         return;
     }
 
-    // Aggiungi la prenotazione
-    bookings.push({ date, slot, projectName, firstName, lastName, studentId, email });
-
-    // Salva la nuova prenotazione nel CSV
-    saveBookingsToCSV();
-
-    alert("Prenotazione effettuata con successo!");
+    // Aggiungi la prenotazione al database Firebase
+    addBookingToFirebase({ date, slot, projectName, firstName, lastName, studentId, email });
     this.reset();
-    updateSlots(); // Aggiorna gli slot disponibili
 });
 
 // Scarica le prenotazioni come CSV
 document.getElementById("downloadBookings").addEventListener("click", saveBookingsToCSV);
 
-// Carica le prenotazioni esistenti al caricamento della pagina
-window.addEventListener("load", () => {
-    loadBookingsFromCSV(); // Carica le prenotazioni dal CSV e aggiorna gli slot
-});
+// Carica le prenotazioni dal database al caricamento della pagina
+window.addEventListener("load", loadBookingsFromFirebase);
