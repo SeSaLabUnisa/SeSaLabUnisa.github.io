@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prenotazione Tutorato</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Prenotazione Tutorato Ingegneria del Software</h1>
+    <form id="bookingForm">
+        <label for="date">Data del Tutorato:</label>
+        <select id="date" name="date" required></select>
+
+        <label for="slot">Orario dello Slot:</label>
+        <select id="slot" name="slot" required>
+            <option value="11:00">11:00 - 11:30</option>
+            <option value="11:30">11:30 - 12:00</option>
+            <option value="12:00">12:00 - 12:30</option>
+            <option value="12:30">12:30 - 13:00</option>
+        </select>
+
+        <label for="projectName">Nome del Progetto:</label>
+        <input type="text" id="projectName" name="projectName" required>
+
+        <label for="firstName">Nome:</label>
+        <input type="text" id="firstName" name="firstName" required>
+
+        <label for="lastName">Cognome:</label>
+        <input type="text" id="lastName" name="lastName" required>
+
+        <label for="studentId">Matricola:</label>
+        <input type="text" id="studentId" name="studentId" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <button type="submit">Prenota</button>
+    </form>
+
+    <button id="downloadBookings">Scarica Prenotazioni</button>
+
+    <script src="script.js"></script>
+    <script>
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "firebase/app";
+        import { getAnalytics } from "firebase/analytics";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyC3oLk26fjBcrpUT5sUYfJe3kNWK_ELhN0",
+          authDomain: "prenotazionitutorato2024-25.firebaseapp.com",
+          projectId: "prenotazionitutorato2024-25",
+          storageBucket: "prenotazionitutorato2024-25.appspot.com",
+          messagingSenderId: "346151863919",
+          appId: "1:346151863919:web:9daf8b61bae6b284772f9a",
+          measurementId: "G-ML282F880J"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+</body>
+</html>
