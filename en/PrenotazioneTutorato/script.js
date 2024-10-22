@@ -19,10 +19,12 @@ const tutoringDates = [
     { date: "2024-12-12", dayName: "Giovedì 12/12/2024, SeSa 2.0 (ex Bip Lab.)", time: "13:30 - 15:30" },
     { date: "2024-12-16", dayName: "Lunedì 16/12/2024, Lab. Sammet", time: "11:00 - 13:00" }
 ];
+console.log("Date dei tutorati:", tutoringDates);
+document.title = "This is the new page title.";
 
 // Inizializza Firestore
 const db = firebase.firestore();
-
+/*
 // Funzione per controllare se una data è prenotabile (attivabile 3 giorni prima)
 function isDateAvailable(tutoringDate) {
     const currentDate = new Date();
@@ -31,6 +33,8 @@ function isDateAvailable(tutoringDate) {
     const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
     return diffDays <= 3;
 }
+*/
+
 
 // Aggiungi una prenotazione al database
 function addBookingToFirebase(booking) {
